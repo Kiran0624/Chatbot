@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses do you have?",
+        "What are the courses available?",
+        "What are the departments in the college?"
+      ],
+      "responses": [
+        "The courses are: computer science,electronics and communication,electrical and civil",
+        "We have computer science,electronics and communication,electrical and civil"
+      ]
+    },
+    {
+      "tag": "fee structure",
+      "patterns": [
+        "fee structure",
+        "What about the fees?",
+        "How much is the fees?",
+        "What is the fee structure of this college?"
+      ],
+      "responses": [
+        "The current fee is:Merit-41030 Mgmt-71030 NRI-106030\nYou can see detailed structure at:https://www.cetkr.ac.in/fee.php"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "What is the admission criteria?",
+        "How are students admitted?",
+        "Details about admission in the college?"
+      ],
+      "responses": [
+        "Eligibility for admission is as specified in the Common Entrance Examination conducted by the Govt. of Kerala. The merit & management students are directed by the Chief Entrance Commissioner according to the Entrance ranking through online counseling. 60% seats are free seats, 35% seats are management seats and 5% seats are reserved for NRI students selected directly on merit basis. Also the Government have accorded sanction for the increase of 5% seats for implementing the tuition fee waivers scheme (FWS) for women, economically backward and physically challenged meritorious students.See here for the intake details:https://www.cetkr.ac.in/admission.php"
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "Who is the principal of CETKR?",
+        "current principal",
+        "who is principal now?"
+      ],
+      "responses": [
+        "The principal at present is Dr.Vinod Pottakulath"
+      ]
+    },
+    {
+      "tag": "establishment",
+      "patterns": [
+        "When was the college established?",
+        "when did the college start?",
+        "When was cetkr introduced?"
+      ],
+      "responses": [
+        "The college was established in the year 2000 under CAPE"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What event is happening right now?",
+        "what are the events in the college?",
+        "What are the upcoming events?"
+      ],
+      "responses": [
+        "we,re just done with our national level techfest INQUA 3.0.Stay tuned for more updates"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available?",
+        "What are the facilities in the college?",
+        "How advanced is the college?"
+      ],
+      "responses": [
+        "The college is well equipped with a central library and a central computing facility.We have very advanced labs and workshops.We also have a central auditoriam."
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "Where is the college located?",
+        "What exactly is CETKR?",
+        "How can i reach there?"
+      ],
+      "responses": [
+        "Our college is located in Cheemeni,Kasaragod.The nearest railway station is Cheruvathur."
+      ]
+    },
+    {
+      "tag": "Type",
+      "patterns": [
+        "Is this a government college?",
+        "Is this college govt or self financing?",
+        "Is CETKR a self financing college?"
+      ],
+      "responses": [
+        "CETKR is a government self-financing engineering college."
+      ]
+    },
+    {
+      "tag": "Placements",
+      "patterns": [
+        "Which companies provide placements?",
+        "Which are the top recruiting companies of the college?",
+        "Placement opportunities?"
+      ],
+      "responses": [
+        "The top recruiters are TCS,Quest Global,Infosys,Qburst,Wipro"
+      ]
+    },
+    {
+      "tag":"Hostel",
+      "patterns": [
+        "Is there hostel facility in the college?",
+        "Does the college have hostel?",
+        "hostel facility?"
+      ],
+      "responses": [
+        "We have a ladies hostel.There is no boys hostel available"
+      ]
+    }
+  ]
+}
